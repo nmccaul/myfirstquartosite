@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Hometown: San Francisco\n\n\n\nMy Headshot\n\n\n\n\nFavorite YouTube Video:"
+  },
+  {
+    "objectID": "index.html#python-code",
+    "href": "index.html#python-code",
+    "title": "My Quarto Website",
+    "section": "Python Code",
+    "text": "Python Code\n\nx = 10\ny = 20\nprint(\"Sum:\", x + y)\n\nSum: 30"
+  },
+  {
+    "objectID": "index.html#mermaid",
+    "href": "index.html#mermaid",
+    "title": "My Quarto Website",
+    "section": "Mermaid",
+    "text": "Mermaid\n\n\n\n\n\nflowchart LR\n    A[Idea] --&gt; B[Prototype]\n    B --&gt; C[Test]\n    C --&gt; D[Build]\n    D --&gt; E[Launch]\n    E --&gt; F[Learn]\n    F --&gt; A\n\n        %% Custom dark-themed styles\n    style A fill:#0dcaf0,stroke:#ffffff,stroke-width:2px,color:#000\n    style B fill:#6610f2,stroke:#ffffff,stroke-width:2px,color:#fff\n    style C fill:#198754,stroke:#ffffff,stroke-width:2px,color:#fff\n    style D fill:#fd7e14,stroke:#ffffff,stroke-width:2px,color:#000\n    style E fill:#dc3545,stroke:#ffffff,stroke-width:2px,color:#fff\n    style F fill:#6c757d,stroke:#ffffff,stroke-width:2px,color:#fff"
+  },
+  {
+    "objectID": "index.html#latex",
+    "href": "index.html#latex",
+    "title": "My Quarto Website",
+    "section": "LaTex",
+    "text": "LaTex\nInline math like \\(a^2 + b^2 = c^2\\) is easy.\nOr as display math:\n\\[\nE = mc^2\n\\]\nOr something more advanced:\n\\[\n\\sum_{i=1}^n x_i = \\frac{n(n+1)}{2}\n\\]"
+  }
+]
