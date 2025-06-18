@@ -1,0 +1,9 @@
+---
+title: "About Me"
+---
+
+### Hometown: San Francisco
+![My Headshot](images/San-Francisco Pic.webp)
+
+### Favorite YouTube Video:
+{{< video https://www.youtube.com/watch?v=vStJoetOxJg >}}

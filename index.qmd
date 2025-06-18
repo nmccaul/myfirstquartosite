@@ -1,0 +1,53 @@
+---
+title: "My Quarto Website"
+format: html
+page-layout: full
+---
+
+::: {style="text-align: center; margin-top: 100px;"}
+# Welcome to My Quarto Site
+:::
+
+## Python Code
+
+```{python}
+x = 10
+y = 20
+print("Sum:", x + y)
+```
+
+## Mermaid
+
+```{mermaid}
+flowchart LR
+    A[Idea] --> B[Prototype]
+    B --> C[Test]
+    C --> D[Build]
+    D --> E[Launch]
+    E --> F[Learn]
+    F --> A
+
+        %% Custom dark-themed styles
+    style A fill:#0dcaf0,stroke:#ffffff,stroke-width:2px,color:#000
+    style B fill:#6610f2,stroke:#ffffff,stroke-width:2px,color:#fff
+    style C fill:#198754,stroke:#ffffff,stroke-width:2px,color:#fff
+    style D fill:#fd7e14,stroke:#ffffff,stroke-width:2px,color:#000
+    style E fill:#dc3545,stroke:#ffffff,stroke-width:2px,color:#fff
+    style F fill:#6c757d,stroke:#ffffff,stroke-width:2px,color:#fff
+```
+
+## LaTex
+
+Inline math like $a^2 + b^2 = c^2$ is easy.
+
+Or as display math:
+
+$$
+E = mc^2
+$$
+
+Or something more advanced:
+
+$$
+\sum_{i=1}^n x_i = \frac{n(n+1)}{2}
+$$

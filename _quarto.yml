@@ -1,0 +1,19 @@
+project:
+  type: website
+
+website:
+  title: "My First Quarto Site"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme: darkly
+    css: styles.css      # Only include if you have a custom CSS file
+    toc: true
+
+editor: visual
+
